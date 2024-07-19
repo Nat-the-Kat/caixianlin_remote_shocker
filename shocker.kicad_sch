@@ -4198,6 +4198,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab980fb-7409-4425-934d-bafc9b4bc061")
+	)
+	(wire
+		(pts
 			(xy 217.17 161.29) (xy 217.17 163.83)
 		)
 		(stroke
@@ -4818,6 +4828,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 35.56) (xy 87.63 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b068201-d442-408f-92fe-f2b9b28b2363")
+	)
+	(wire
+		(pts
 			(xy 201.93 251.46) (xy 213.36 251.46)
 		)
 		(stroke
@@ -5148,16 +5168,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 35.56) (xy 87.63 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c84f0afe-05d9-4ca2-b25e-81b488c3d49b")
-	)
-	(wire
-		(pts
 			(xy 67.31 133.35) (xy 74.93 133.35)
 		)
 		(stroke
@@ -5205,16 +5215,6 @@
 			(type default)
 		)
 		(uuid "d7fad5bd-a87e-4a7a-b13f-3b6d9a568e14")
-	)
-	(wire
-		(pts
-			(xy 64.77 35.56) (xy 68.58 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d95d4086-5c87-4c54-99cf-e10a2db06bda")
 	)
 	(wire
 		(pts
@@ -5616,7 +5616,7 @@
 			)
 		)
 	)
-	(global_label "CHARGE_COMPLETE?"
+	(global_label "CHARGE_COMPLETE"
 		(shape input)
 		(at 168.91 54.61 180)
 		(fields_autoplaced yes)
@@ -5628,7 +5628,7 @@
 		)
 		(uuid "2a5f9277-b30b-4045-8992-ca4538d85e28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.8749 54.61 0)
+			(at 147.9635 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,7 +11321,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 87.63 35.56 0)
+		(at 64.77 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11331,7 +11331,7 @@
 		(fields_autoplaced yes)
 		(uuid "bef18f34-5722-4bc9-9b51-da2294cc0609")
 		(property "Reference" "#PWR059"
-			(at 87.63 39.37 0)
+			(at 64.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +11340,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 87.63 30.48 0)
+			(at 64.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11348,7 +11348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 35.56 0)
+			(at 64.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 35.56 0)
+			(at 64.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +11366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 35.56 0)
+			(at 64.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12084,16 +12084,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 35.56 270)
+		(at 87.63 35.56 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d7c1388f-7355-4a91-96eb-010158f77115")
 		(property "Reference" "#PWR060"
-			(at 58.42 35.56 0)
+			(at 93.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12102,7 +12102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 35.5599 90)
+			(at 91.44 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12111,7 +12111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 35.56 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12120,7 +12120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 35.56 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12129,7 +12129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 35.56 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
