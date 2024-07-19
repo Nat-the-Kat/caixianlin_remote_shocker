@@ -9629,7 +9629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86792a25-972c-4b1b-8da7-291382d21195")
-		(property "Reference" "M?"
+		(property "Reference" "MOTO1"
 			(at 247.65 88.8999 0)
 			(effects
 				(font
@@ -9683,7 +9683,7 @@
 		(instances
 			(project ""
 				(path "/c1360231-0ff3-4c3f-a7b5-1142b0ed19a4/16646a8c-b803-44e2-8c15-74c54d1f7943"
-					(reference "M?")
+					(reference "MOTO1")
 					(unit 1)
 				)
 			)
@@ -12362,7 +12362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd9d89ed-f5ef-4f17-905e-62fe8710627c")
-		(property "Reference" "AE?"
+		(property "Reference" "ANT1"
 			(at 307.34 197.4849 0)
 			(effects
 				(font
@@ -12413,7 +12413,7 @@
 		(instances
 			(project ""
 				(path "/c1360231-0ff3-4c3f-a7b5-1142b0ed19a4/16646a8c-b803-44e2-8c15-74c54d1f7943"
-					(reference "AE?")
+					(reference "ANT1")
 					(unit 1)
 				)
 			)
