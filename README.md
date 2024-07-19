@@ -1,4 +1,4 @@
-** What is this?
+## What is this?
 
 My attempt at reverse engineering the CaiXianlin shocker.
 
@@ -8,7 +8,7 @@ Please Note: these schematics are accurate for the following board revisions:
 * shocker: H-880B-RX-V2.0
 
 
-** Shock pwm captures
+## Shock pwm captures
 
 The transformer is switched at a fixed frequency of 666 hz.
 
