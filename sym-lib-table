@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "shocker_chips")(type "KiCad")(uri "${KIPRJMOD}/shocker_chips.kicad_sym")(options "")(descr ""))
+)

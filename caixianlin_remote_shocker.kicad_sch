@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c1360231-0ff3-4c3f-a7b5-1142b0ed19a4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 114.935 37.465)
+		(size 46.99 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16646a8c-b803-44e2-8c15-74c54d1f7943")
+		(property "Sheetname" "shocker"
+			(at 114.935 36.7534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shocker.kicad_sch"
+			(at 114.935 74.8796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "caixianlin_remote_shocker"
+				(path "/c1360231-0ff3-4c3f-a7b5-1142b0ed19a4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 37.465)
+		(size 46.99 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cafc6595-d2c1-4387-b9a7-fa92dc84f277")
+		(property "Sheetname" "remote"
+			(at 52.705 36.7534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "remote.kicad_sch"
+			(at 52.705 74.8796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "caixianlin_remote_shocker"
+				(path "/c1360231-0ff3-4c3f-a7b5-1142b0ed19a4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
