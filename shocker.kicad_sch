@@ -8398,7 +8398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_BEC"
+		(property "Value" "SS8050"
 			(at 353.06 120.6499 0)
 			(effects
 				(font
@@ -8712,10 +8712,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "df5022d9-9389-4db3-b943-54d34327bfdf")
+			(uuid "df5022d9-9389-4db3-b943-54d34327bfe0")
 		)
 		(pin "1"
-			(uuid "7981d7fe-c93e-4007-bd27-3827f3a93c9a")
+			(uuid "7981d7fe-c93e-4007-bd27-3827f3a93c9b")
 		)
 		(instances
 			(project ""
@@ -8953,7 +8953,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NPN_BEC"
+		(property "Value" "SS8050"
 			(at 245.11 104.1399 0)
 			(effects
 				(font
@@ -10828,10 +10828,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "df5022d9-9389-4db3-b943-54d34327bfdf")
+			(uuid "df5022d9-9389-4db3-b943-54d34327bfe1")
 		)
 		(pin "1"
-			(uuid "7981d7fe-c93e-4007-bd27-3827f3a93c9a")
+			(uuid "7981d7fe-c93e-4007-bd27-3827f3a93c9c")
 		)
 		(instances
 			(project ""
@@ -11801,7 +11801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d18b6a09-de89-4a98-87da-91a66316ed0f")
-		(property "Reference" "Q?"
+		(property "Reference" "Q5"
 			(at 69.85 142.2399 0)
 			(effects
 				(font
@@ -11858,7 +11858,7 @@
 		(instances
 			(project "caixianlin_remote_shocker"
 				(path "/c1360231-0ff3-4c3f-a7b5-1142b0ed19a4/16646a8c-b803-44e2-8c15-74c54d1f7943"
-					(reference "Q?")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
