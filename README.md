@@ -24,7 +24,7 @@ intensity | VAC | current(microamps)
 
 #### graphs
 
-![alt text](./images/voltage_vs_intensity.png "VAC vs intensity")
+![alt text](./images/volts_vs_intensity.png "VAC vs intensity")
 
 
 ![alt text](./images/current_vs_intensity.png "current vs intensity")
