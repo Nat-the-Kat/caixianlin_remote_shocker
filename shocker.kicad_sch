@@ -4678,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 29.21) (xy 351.79 33.02)
+			(xy 335.28 27.94) (xy 335.28 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4768,7 +4768,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 33.02) (xy 374.65 33.02)
+			(xy 345.44 31.75) (xy 358.14 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4998,7 +4998,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 43.18) (xy 374.65 43.18)
+			(xy 345.44 41.91) (xy 358.14 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5038,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 57.15) (xy 351.79 60.96)
+			(xy 335.28 55.88) (xy 335.28 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5048,7 +5048,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 52.07) (xy 332.74 52.07)
+			(xy 312.42 50.8) (xy 316.23 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5108,7 +5108,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 43.18) (xy 351.79 46.99)
+			(xy 335.28 41.91) (xy 335.28 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5288,7 +5288,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 52.07) (xy 344.17 52.07)
+			(xy 323.85 50.8) (xy 327.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5375,9 +5375,28 @@
 		)
 		(uuid "78a9843f-7d69-4334-8d08-19ef0392a4f5")
 	)
+	(text_box "primary has a resistance of 2.2 Ohms.\nsecondary has a resistance of 2.865K Ohms."
+		(exclude_from_sim no)
+		(at 350.52 50.165 0)
+		(size 46.355 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d73093f4-1a56-4eee-b20c-7a6df9e4d66c")
+	)
 	(text_box "NOTE: THE TRANSFORMER HAS A DUMMY PIN THAT MAKES IT LOOKS LIKE THE PRIMARY IS CENTER TAPPED, BUT IT IS NOT CONNECTED INTERNALLY.\n"
 		(exclude_from_sim no)
-		(at 311.15 18.415 0)
+		(at 294.64 17.145 0)
 		(size 27.94 13.97)
 		(stroke
 			(width 0)
@@ -5838,7 +5857,7 @@
 	)
 	(global_label "SHOCK_SIG"
 		(shape input)
-		(at 328.93 52.07 180)
+		(at 312.42 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5848,7 +5867,7 @@
 		)
 		(uuid "91d07d0b-cace-42bb-852a-b6b8dc1cae7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.4824 52.07 0)
+			(at 298.9724 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6371,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 351.79 60.96 0)
+		(at 335.28 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6361,7 +6380,7 @@
 		(fields_autoplaced yes)
 		(uuid "105651cb-2b90-498c-b6dd-fd5e58866c5b")
 		(property "Reference" "#PWR057"
-			(at 351.79 67.31 0)
+			(at 335.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6389,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 66.04 0)
+			(at 335.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 60.96 0)
+			(at 335.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +6406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 60.96 0)
+			(at 335.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +6415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 351.79 60.96 0)
+			(at 335.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +7326,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 379.73 43.18 180)
+		(at 363.22 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7316,7 +7335,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bb350ec-ae79-4f31-bdf6-d51c273405bb")
 		(property "Reference" "T16"
-			(at 379.095 38.1 0)
+			(at 362.585 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,7 +7343,7 @@
 			)
 		)
 		(property "Value" "SHOCKER_OUTPUT_0"
-			(at 379.095 40.64 0)
+			(at 362.585 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +7351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 43.18 0)
+			(at 363.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 379.73 43.18 0)
+			(at 363.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7369,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 379.73 43.18 0)
+			(at 363.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +8830,7 @@
 				)
 			)
 		)
-		(property "Value" "15"
+		(property "Value" "0.51 Ohms"
 			(at 105.41 241.3 90)
 			(effects
 				(font
@@ -8863,7 +8882,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN_BCE")
-		(at 349.25 52.07 0)
+		(at 332.74 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8872,7 +8891,7 @@
 		(fields_autoplaced yes)
 		(uuid "66d6c475-97cd-4777-af31-d01845c2d66e")
 		(property "Reference" "Q1"
-			(at 354.33 50.7999 0)
+			(at 337.82 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,7 +8900,7 @@
 			)
 		)
 		(property "Value" "KTC4373Y"
-			(at 354.33 53.3399 0)
+			(at 337.82 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,7 +8909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 354.33 49.53 0)
+			(at 337.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8899,7 +8918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 52.07 0)
+			(at 332.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +8927,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/collector/emitter"
-			(at 349.25 52.07 0)
+			(at 332.74 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +9376,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 351.79 29.21 0)
+		(at 335.28 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9366,7 +9385,7 @@
 		(fields_autoplaced yes)
 		(uuid "7530d616-af1a-4926-8fb2-0788c8da8cff")
 		(property "Reference" "#PWR058"
-			(at 351.79 33.02 0)
+			(at 335.28 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +9394,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 351.79 24.13 0)
+			(at 335.28 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +9402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 29.21 0)
+			(at 335.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9392,7 +9411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 29.21 0)
+			(at 335.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +9420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 351.79 29.21 0)
+			(at 335.28 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10711,7 +10730,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 379.73 33.02 180)
+		(at 363.22 31.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10720,7 +10739,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab1acf94-b9c0-4462-a0f3-42114bd97448")
 		(property "Reference" "T4"
-			(at 379.095 27.94 0)
+			(at 362.585 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10747,7 @@
 			)
 		)
 		(property "Value" "SHOCKER_OUTPUT_1"
-			(at 379.095 30.48 0)
+			(at 362.585 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10736,7 +10755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 33.02 0)
+			(at 363.22 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,7 +10764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 379.73 33.02 0)
+			(at 363.22 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10754,7 +10773,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 379.73 33.02 0)
+			(at 363.22 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12692,7 +12711,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 336.55 52.07 90)
+		(at 320.04 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12701,15 +12720,15 @@
 		(fields_autoplaced yes)
 		(uuid "f21272fa-a7ff-4dfb-9069-f44d6161781a")
 		(property "Reference" "R2"
-			(at 336.55 45.72 90)
+			(at 320.04 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "?"
-			(at 336.55 48.26 90)
+		(property "Value" "56 Ohms"
+			(at 320.04 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12717,7 +12736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.804 51.054 90)
+			(at 320.294 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12726,7 +12745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 52.07 0)
+			(at 320.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12735,7 +12754,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 336.55 52.07 0)
+			(at 320.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13186,7 @@
 	)
 	(symbol
 		(lib_id "Transformer:TRANSF1")
-		(at 356.87 38.1 0)
+		(at 340.36 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13175,7 +13194,7 @@
 		(dnp no)
 		(uuid "fbe35cc1-6cbe-4cef-8164-076b857e3f15")
 		(property "Reference" "L3"
-			(at 356.87 31.242 0)
+			(at 340.36 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,7 +13202,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 356.87 31.75 0)
+			(at 340.36 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13191,7 +13210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 38.1 0)
+			(at 340.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13200,7 +13219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 38.1 0)
+			(at 340.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13209,7 +13228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 356.87 38.1 0)
+			(at 340.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
