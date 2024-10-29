@@ -1,0 +1,30 @@
+The data sent from the remote consists of 4 parts, the remote id, the command, the power, and the checksum.
+
+
+      Remote id       CMD      pwr     chksum   ?
+0|11011110|11001011|00000001|00000001|10101011|00|0
+
+
+Remote ID:
+Example: 11011110|11001011
+a 16 digit code for your remote, you can literally put in anything. 
+
+Commands:
+00000001 Shock
+00000011 Beep
+00000010 Vibrate
+00000100 Light  
+
+
+Power:
+0-255 Haven't tested anything past 75....not very comfy but has a theoretical limit of 255
+The Light command works as 0=off and anything greater than or equal to 1=on
+
+
+Checksum:
+The binary sum of all the 8 bit sections converted to hex, added together, then converted back to binary, then remove the first 2 digits and add on 2 zeros.
+
+     DE       CB        1       1
+0|11011110|11001011|00000001|00000001|xxxxxxxx|00|0
+
+ DE+CB+1+1=1AB=0110101011  then remove the first 2 digits  10101011
