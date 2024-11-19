@@ -7,6 +7,12 @@ Please Note: these schematics are accurate for the following board revisions:
 * remote: H-880V-TX-V1.0
 * shocker: H-880B-RX-V2.0
 
+##Encoding
+
+please refer to "remote signal decoding.txt"
+
+this was provided by [EasyTheTruth](https://github.com/EasyTheTruth)
+
 ## Shock pwm captures
 
 The transformer is switched at a fixed frequency of 666 hz.
