@@ -8,6 +8,7 @@ The data sent from the remote consists of 4 parts, the remote id, the command, t
 Remote ID:
 Example: 11011110|11001011
 a 16 digit code for your remote, you can literally put in anything. 
+The channel button just uses a diffrent remote id to control another collar.
 
 Commands:
 00000001 Shock
